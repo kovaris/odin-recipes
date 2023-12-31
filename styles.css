@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Bradley Hand", cursive;
+    color: coral;
 }
 
 body {
@@ -11,21 +12,20 @@ body {
 h1 {
     text-align: center;
     text-decoration: underline;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bolder;
-    color: blanchedalmond;
     margin: 0;
     padding: 20px 0 20px 0;
 }
 
-img {
+.index-img {
     width: 95vw;
     display: block;
     margin: 0 auto;
     border-radius: 20px;
 }
 
-ul {
+.index-ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -36,7 +36,7 @@ ul {
 }
 
 a:link {
-    color: blanchedalmond;
+    color: coral;
     padding: 10px 20px;
 }
 
@@ -48,14 +48,14 @@ a:visited {
 }
 
 a:hover {
-    color: blanchedalmond;
-    background-color: coral;
+    color: coral;
+    background-color: rgb(70, 70, 70);
     padding: 10px 20px;
     border-radius: 30px;
 }
 
 @media only screen and (max-width: 530px) {
-    ul {
+    .index-ul {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -65,4 +65,66 @@ a:hover {
         height: 10vh;
         flex-direction: column;
     }
+}
+
+/* Meaty Pasta Section */
+
+.pasta-img {
+    width: 95vw;
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 20px 0 0 0;
+    border-radius: 45px;
+}
+
+.pasta-fig {
+    text-align: center;
+    color: blanchedalmond;
+    font-style: italic;
+    margin: 0 auto 50px auto;
+    padding: 0 0 40px 0;
+}
+
+.pasta-desc {
+    padding: 20px 8vw;
+    margin: 40px 0;
+    background-color: rgba(80, 80, 80);
+}
+
+.pasta-h2 {
+    font-size: large;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3.3em;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+}
+
+.pasta-p {
+    font-size: 2.5em;
+    font-style: italic;
+    color: blanchedalmond;
+    margin: 0 auto;
+    padding: 10px 0 60px 0;
+}
+
+.pasta-ing {
+    padding: 0 8vw;
+    margin: 40px 0;
+}
+
+.pasta-ul {
+    font-size: 2em;
+}
+
+.pasta-ul > li {
+    color: blanchedalmond;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.pasta-steps {
+    padding: 0 8vw;
+    margin: 40px 0;
+    background-color: rgb(80, 80, 80);
 }
